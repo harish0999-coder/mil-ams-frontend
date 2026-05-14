@@ -1,4 +1,7 @@
 {
+  "buildCommand": "node node_modules/react-scripts/bin/react-scripts.js build",
+  "outputDirectory": "build",
+  "framework": "create-react-app",
   "rewrites": [
     {
       "source": "/(.*)",
