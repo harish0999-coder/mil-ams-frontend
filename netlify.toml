@@ -1,7 +1,0 @@
-[build]
-  command = "npm install && ./node_modules/.bin/react-scripts build"
-  publish = "build"
-
-[build.environment]
-  CI = "false"
-  NPM_FLAGS = "--legacy-peer-deps"
